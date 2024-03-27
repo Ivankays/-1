@@ -1,0 +1,79 @@
+object Form1: TForm1
+  Left = 378
+  Height = 659
+  Top = 100
+  Width = 751
+  Caption = 'Form1'
+  ClientHeight = 659
+  ClientWidth = 751
+  DesignTimePPI = 120
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 140
+    Height = 28
+    Top = 113
+    Width = 138
+    Caption = 'Первое число'
+    Color = clBlack
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 460
+    Height = 28
+    Top = 113
+    Width = 141
+    Caption = 'Второе число'
+    Color = clBlack
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -20
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label2Click
+  end
+  object Edit1: TEdit
+    Left = 110
+    Height = 28
+    Top = 150
+    Width = 200
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 420
+    Height = 28
+    Top = 150
+    Width = 200
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 270
+    Height = 40
+    Top = 260
+    Width = 180
+    Caption = 'Обменять'
+    Color = 8388863
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object BitBtn1: TBitBtn
+    Left = 570
+    Height = 40
+    Top = 610
+    Width = 124
+    Caption = 'Выход'
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn1Click
+    TabOrder = 3
+  end
+end
